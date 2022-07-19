@@ -100,7 +100,7 @@ function draw(){
     //pulo do trex
     if((touches.length > 0 || keyDown("space"))&& trex.y >= height - 120) {
       trex.velocityY = -12;
-      jumpSound.play();
+      puloSom.play();
       touches = [];
   }
     
